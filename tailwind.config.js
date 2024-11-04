@@ -4,8 +4,10 @@ module.exports = {
   theme: {
     extend: {
       colors:{
+        
         neutral:{
           'off-white': 'hsl(36, 100%, 99%)',
+          'blue-color' : "hsl(180, 57, 49)",
       },
       },
       fontFamily: {
