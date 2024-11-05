@@ -9,14 +9,14 @@
 <body>
 
 
-    <header id="home" class="bg-hero-img bg-cover ">
-        <nav class="flex gap-4 items-center justify-between w-[95%] pt-10 px-4 mb-16 md:w-[100%]">
-        <div class=" flex align-middle  items-center md:w-[80%]">
+    <header id="home" class="bg-hero-img bg-cover lg:flex lg:flex-col lg:items-center ">
+        <nav class="flex gap-4 items-center justify-between w-[95%] pt-10 px-4 mb-16 md:w-[100%] lg:align-middle  lg:w-[60%] lg:justify-between]">
+        <div class=" flex align-middle  items-center lg:w-[70%]">
             <div class="">
                 <img class="" src="./images/your_logo.png" alt="Logo" >
             </div>
             <div class=" ">
-                <p class="text-4xl md:text-7xl">LOGO</p>
+                <p class="text-6xl md:text-7xl">LOGO</p>
             </div>
             
             
@@ -38,8 +38,8 @@
                     This is a simple hero unit. a simple jumbotron-style component for calling extra attention to featured content or information
                 </p>
                 <div class="pt-4 md:flex md:gap-4">
-                    <a href="#" class="bg-neutral-blue-color p-3 flex justify-center items-center text-gray-300 font-bold md:w-[40%]">Learn more</a>
-                    <a href="#" class="bg-red-500 p-3 md:w[40%] flex justify-center items-center  text-gray-300 font-bold ">Download</a>
+                    <a href="#" class="bg-neutral-blue-color p-3 flex justify-center items-center text-gray-300 font-bold md:w-[50%]">Learn more</a>
+                    <a href="#" class="bg-red-500 p-3 md:w[50%] flex justify-center items-center  text-gray-300 font-bold ">Download</a>
                 </div>
             </div>
         
@@ -47,9 +47,9 @@
         </article>
         </header>
         <main>
-        <section id="features" class="bg-neutral-off-white pt-24 flex flex-col items-center">
+        <section id="features" class="bg-neutral-off-white pt-24 flex flex-col items-center lg:flex-row lg:justify-center lg:align-middle lg:gap-6">
 
-        <article class="w-[90%] flex flex-col items-center pb-10">
+        <article class="w-[90%] flex flex-col items-center pb-10 lg:w-[20%]">
         <div class="">
         <img src="./images/des-crayons.png" alt="Un crayon" class="w-10">
         </div>
@@ -61,7 +61,7 @@
         </p>
         </article>
 
-        <article class="w-[90%] flex flex-col items-center pb-10">
+        <article class="w-[90%] flex flex-col items-center pb-10 lg:w-[20%]">
         <div>
         <img src="./images/camera.png" alt="Camera" class="w-10">
         </div>
@@ -73,7 +73,7 @@
         </p>
         </article>
 
-        <article class="w-[90%] flex flex-col items-center pb-20">
+        <article class="w-[90%] flex flex-col items-center pb-20 lg:w-[20%] lg:pb-6">
         <div>
         <img src="./images/signet.png" alt="Signet" class="w-10">
         </div>
@@ -87,8 +87,8 @@
         
         </section>
         
-        <section id="about" class="bg-nuage-img bg-cover flex items-center align-middle justify-center">
-        <div class="bg-blue-400 w-[90%] px-4 bg-opacity-60 flex flex-col items-middle justify-center align-middle">
+        <section id="about" class="bg-nuage-img bg-cover flex items-center align-middle lg:justify-end ">
+        <div class="bg-blue-400 w-[90%] px-4 bg-opacity-60 flex flex-col items-middle mx-6 justify-center align-middle lg:w-[50%] lg:mr-28 lg:p-10">
         <h1 class="font-Rokkitt pt-20 text-neutral-off-white text-4xl pb-6 ">
             Ligula Mattis Ornare Ultricies
         </h1>
@@ -98,27 +98,30 @@
         <p class="font-Roboto text-xl text-white ">
             Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
         </p>
-        <div class="flex items-center justify-center pt-10 pb-8"> 
-            <div class="border text-neutral-off-white border-neutral-off-white w-1/2 flex flex-col py-8 ">
-                <h2 class="text-center font-Rokkitt pb-10 text-2xl">
-                    Ultricies
-                </h2>
-                <p class="font-Roboto text-center text-xl">
-                    23,578
-                </p>
-                </div>
+        <div class=" flex flex-col lg:flex-row lg:pt-10 lg:justify-between">
+            <div class="flex items-center justify-center lg:justify-normal pt-10 pb-8 lg:w-[40%] lg:pt-0"> 
+                <div class="border text-neutral-off-white border-neutral-off-white w-1/2 flex flex-col py-8 lg:w-[100%]">
+                    <h2 class="text-center font-Rokkitt pb-10 text-2xl">
+                        Ultricies
+                    </h2>
+                    <p class="font-Roboto text-center text-xl">
+                        23,578
+                    </p>
+                    </div>
+            </div>
+            
+            <div class="flex items-center justify-center pb-8 lg:justify-end lg:w-[40%]">
+                <div class="border border-neutral-off-white w-1/2 flex flex-col text-neutral-off-white  py-8 lg:w-[100%]">
+                    <h2 class="text-center pb-10 font-Rokkitt text-2xl">
+                        Fermentum
+                    </h2>
+            
+                    <p class="text-center font-Roboto text-xl">
+                        12,702
+                    </p>
+                    </div>
         </div>
         
-        <div class="flex items-center justify-center pb-8">
-            <div class="border border-neutral-off-white w-1/2 flex flex-col text-neutral-off-white  py-8 ">
-                <h2 class="text-center pb-10 font-Rokkitt text-2xl">
-                    Fermentum
-                </h2>
-        
-                <p class="text-center font-Roboto text-xl">
-                    12,702
-                </p>
-                </div>
         </div>
         
         
@@ -127,21 +130,27 @@
         
         </section>
         
-        <section id="blog" class="bg-neutral-off-white flex flex-col items-center pb-16">
-            <div class="w-[90%]">
-                <h1 class="font-Rokkitt pt-24 pb-10 text-5xl">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </h1>
-                <p class="font-Roboto pb-4 text-xl">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum veritatis nobis maiores non molestiae officiis inventore, possimus quidem, vitae natus magnam repudiandae architecto quis aspernatur impedit fugiat autem nesciunt deleniti! Ad, tempora? Illum velit eaque nihil voluptatem libero necessitatibus ex.
-                </p>
-                <p class="font-Roboto text-xl pb-4">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quae inventore in magni exercitationem, ipsum corporis totam. Laudantium dolorem minima ut dolor, illum obcaecati nemo, consequuntur exercitationem quo eos odio?
-                </p>
-                <a class="bg-red-500 p-4 flex w-[40%] font-Roboto text-neutral-off-white">
-                    Take a Look
-                </a>
-                <img src="./images/1200.jpeg" alt="">
+        <section id="blog" class="bg-neutral-off-white flex flex-col items-center pb-16 ">
+            <div class="w-[90%] lg:flex lg:flex-row">
+                <article class="lg:w-[45%] lg:flex lg:flex-col">
+                    <h1 class="font-Rokkitt pt-24 pb-10 text-5xl">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </h1>
+                    <p class="font-Roboto pb-4 text-xl">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum veritatis nobis maiores non molestiae officiis inventore, possimus quidem, vitae natus magnam repudiandae architecto quis aspernatur impedit fugiat autem nesciunt deleniti! Ad, tempora? Illum velit eaque nihil voluptatem libero necessitatibus ex.
+                    </p>
+                    <p class="font-Roboto text-xl pb-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quae inventore in magni exercitationem, ipsum corporis totam. Laudantium dolorem minima ut dolor, illum obcaecati nemo, consequuntur exercitationem quo eos odio?
+                    </p>
+                    <a class="bg-red-500 p-4 flex w-[40%] font-Roboto text-neutral-off-white">
+                        Take a Look
+                    </a>
+                </article>
+                
+                <div class="lg:w-[45%]">
+                    <img src="./images/1200.jpeg" alt="" class="lg:w-[100%]">
+                </div>
+                
                 
                 </section>
                 
@@ -177,6 +186,7 @@
                 <img src="./images/439.jpeg" alt="">
                 <img src="./images/140.jpeg" alt="">
             </div>
+
             <div class="hidden md:block md:flex md:gap-8 md:mx-4 md:py-4 lg:hidden">
                 <div class="flex gap-6 flex-col w-[31%]">
                     <img src="./images/300.jpeg" alt="" class="w-[100%]">
@@ -192,8 +202,9 @@
                     <img src="./images/439.jpeg" alt="" class="w-[100%]">
                 </div>
             </div>
+            
             <div class="hidden lg:block lg:flex lg:gap-4 lg:mr-10 lg:ml-16 lg:py-4 lg:justify-between">
-                <div class="lg:w-[48%] flex flex-col gap-4">
+                <div class="lg:w-[100%] flex flex-col gap-4 ">
                     <div>
                         <img src="./images/300.jpeg" alt="" class="w-[100%]">
                     </div>
@@ -210,9 +221,12 @@
                         <img src="./images/140.jpeg" alt="" class="w-[100%]">
                     </div>
                 </div>
-                <div class="w-[48%] flex flex-col gap-4">
-                    <img src="./images/776.jpeg" alt="" class="w-[50%]">
-                    <img src="./images/439.jpeg" alt="" class="w-[50%]">
+                <div class="w-[48%] flex flex-col flex-wrap gap-4">
+                    
+                        <img src="./images/776.jpeg" alt="" class="w-[100%]">
+                    
+                    
+                    <img src="./images/439.jpeg" alt="" >
                 </div>
 
             </div>
