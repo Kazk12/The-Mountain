@@ -9,21 +9,21 @@
 <body>
 
 
-    <header id="home" class="bg-hero-img bg-cover  ">
-        <nav class="flex  items-center justify-between w-[95%] pt-10 pl-4 mb-16">
-        <div class=" flex align-middle  items-center ">
-            <div class="w-[30%]">
+    <header id="home" class="bg-hero-img bg-cover ">
+        <nav class="flex gap-4 items-center justify-between w-[95%] pt-10 px-4 mb-16 md:w-[100%]">
+        <div class=" flex align-middle  items-center md:w-[80%]">
+            <div class="">
                 <img class="" src="./images/your_logo.png" alt="Logo" >
             </div>
             <div class=" ">
-                <p class="text-xl">LOGO</p>
+                <p class="text-4xl md:text-7xl">LOGO</p>
             </div>
             
             
         </div>
         
         
-        <div class="">
+        <div class="flex justify-end md:w-[20%]">
             <img src="./images/icon-menu.svg" alt="Menu" class="w-10 "/>
         </div>
             
@@ -31,15 +31,15 @@
         </nav>
         <article class="flex align-middle justify-center ">
             <div class="w-[50%] mb-24 flex flex-col items-center">
-                <h1 class="font-Rokkitt text-center text-neutral-off-white text-3xl mb-7">
-                    In the hall of the <span class="text-4xl font-extrabold">Mountain King</span> 
+                <h1 class="font-Rokkitt text-center text-neutral-off-white text-3xl mb-7 md:text-5xl">
+                    In the hall of the <span class="text-4xl font-extrabold md:text-5xl">Mountain King</span> 
                 </h1>
                 <p class="text-gray-400 font-Roboto w-[80%] text-center">
                     This is a simple hero unit. a simple jumbotron-style component for calling extra attention to featured content or information
                 </p>
-                <div class="pt-4">
-                    <a href="#" class="bg-neutral-blue-color p-3 flex justify-center items-center text-gray-300 font-bold">Learn more</a>
-                    <a href="#" class="bg-red-500 p-3 flex justify-center items-center  text-gray-300 font-bold ">Download</a>
+                <div class="pt-4 md:flex md:gap-4">
+                    <a href="#" class="bg-neutral-blue-color p-3 flex justify-center items-center text-gray-300 font-bold md:w-[40%]">Learn more</a>
+                    <a href="#" class="bg-red-500 p-3 md:w[40%] flex justify-center items-center  text-gray-300 font-bold ">Download</a>
                 </div>
             </div>
         
@@ -147,17 +147,17 @@
                 
                 <section id="history" class="flex flex-col items-center bg-photo-img bg-cover">
                 <div class="bg-blue-400 w-[90%] px-4 bg-opacity-70 pt-10">
-                    <p class="font-Roboto text-xl text-white">
+                    <p class="font-Roboto  text-white">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores exercitationem, ipsum ab beatae voluptate repellendus illum nulla, sunt reiciendis accusamus recusandae consequatur aut. Veritatis, vitae.
                     </p>
-                    <p class="font-Roboto text-xl text-white mt-4">
+                    <p class="font-Roboto text-white mt-4">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti quam iusto temporibus culpa doloribus repellendus laboriosam aspernatur debitis non? Ab, recusandae vitae et pariatur atque ducimus dignissimos veritatis odit debitis eveniet eaque? Nesciunt sapiente nemo consequuntur voluptates? Unde, accusamus ea.
                     </p>
 
-                    <h3 class="font-Rokkitt text-2xl mt-4 text-gray-400">
+                    <h3 class="font-Rokkitt text-xl mt-4 text-white opacity-40">
                         - Fermentum Dapibus
                     </h3>
-                    <p class="font-Roboto text-xl text-neutral-off-white mt-4 pb-16">
+                    <p class="font-Roboto text-neutral-off-white mt-4 pb-16">
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores, suscipit.
                     </p>
                 </div>
@@ -167,24 +167,66 @@
         
         </section>
         
-        <section id="photos" class="flex flex-col gap-4 pt-16 pb-16 bg-gray-300">
-        <img src="./images/300.jpeg" alt="">
-        <img src="./images/776.jpeg" alt="">
-        <img src="./images/800.jpeg" alt="">
-        <img src="./images/400.jpeg" alt="">
-        <img src="./images/2476.jpeg" alt="">
-        <img src="./images/439.jpeg" alt="">
-        <img src="./images/140.jpeg" alt="">
+        <section id="photos" class="bg-gray-300">
+            <div class="flex flex-col gap-4 pt-16 pb-16  md:hidden">
+                <img src="./images/300.jpeg" alt="">
+                <img src="./images/776.jpeg" alt="">
+                <img src="./images/800.jpeg" alt="">
+                <img src="./images/400.jpeg" alt="">
+                <img src="./images/2476.jpeg" alt="">
+                <img src="./images/439.jpeg" alt="">
+                <img src="./images/140.jpeg" alt="">
+            </div>
+            <div class="hidden md:block md:flex md:gap-8 md:mx-4 md:py-4 lg:hidden">
+                <div class="flex gap-6 flex-col w-[31%]">
+                    <img src="./images/300.jpeg" alt="" class="w-[100%]">
+                    <img src="./images/400.jpeg" alt="" class="w-[100%]">
+                    <img src="./images/2476.jpeg" alt="" class="w-[100%]">
+                    <img src="./images/140.jpeg" alt="" class="w-[100%]">
+                </div>
+                <div class="flex w-[31%]">
+                    <img src="./images/776.jpeg" alt="" class="w-[100%]">
+                </div>
+                <div class="flex flex-col gap-4 w-[31%]">
+                    <img src="./images/800.jpeg" alt="" class="w-[100%]">
+                    <img src="./images/439.jpeg" alt="" class="w-[100%]">
+                </div>
+            </div>
+            <div class="hidden lg:block lg:flex lg:gap-4 lg:mr-10 lg:ml-16 lg:py-4 lg:justify-between">
+                <div class="lg:w-[48%] flex flex-col gap-4">
+                    <div>
+                        <img src="./images/300.jpeg" alt="" class="w-[100%]">
+                    </div>
+                    <div class="flex justify-between">
+                        <div class="w-[48%]">
+                            <img src="./images/800.jpeg" alt="" class="w-[100%]">
+                        </div>
+                        <div class="w-[48%] flex flex-col gap-4">
+                            <img src="./images/400.jpeg" alt="" class="w-[100%]">
+                            <img src="./images/2476.jpeg" alt="" class="w-[100%]">
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./images/140.jpeg" alt="" class="w-[100%]">
+                    </div>
+                </div>
+                <div class="w-[48%] flex flex-col gap-4">
+                    <img src="./images/776.jpeg" alt="" class="w-[50%]">
+                    <img src="./images/439.jpeg" alt="" class="w-[50%]">
+                </div>
+
+            </div>
+       
         
         </section>
         
-        <section id="partenaires" class="flex flex-col items-center">
-        <img src="./images/logo-sample-01.jpg" alt="">
-        <img src="./images/logo-sample-02.jpg" alt="">
-        <img src="./images/logo-sample-03.png" alt="">
-        <img src="./images/logo-sample-04.jpg" alt="">
-        <img src="./images/logo-sample-05.jpg" alt="">
-        <img src="./images/logo-sample-06.png" alt="">
+        <section id="partenaires" class="flex flex-col items-center lg:flex-row lg:justify-center lg:p-10 lg:align-middle">
+        <img src="./images/logo-sample-01.jpg" alt="" class="lg:w-[10%]">
+        <img src="./images/logo-sample-02.jpg" alt="" class="lg:w-[10%]">
+        <img src="./images/logo-sample-03.png" alt="" class="lg:w-[10%]">
+        <img src="./images/logo-sample-04.jpg" alt="" class="lg:w-[10%]">
+        <img src="./images/logo-sample-05.jpg" alt="" class="lg:w-[10%]">
+        <img src="./images/logo-sample-06.png" alt="" class="lg:w-[10%]">
         </section>
         
         <section id="contact" class="bg-new-img flex flex-col items-center pt-16">
@@ -209,7 +251,7 @@
         
         </section>
         
-        <footer class="bg-gray-600 flex flex-col items-center">
+        <footer class="bg-[#24323B] flex flex-col items-center">
             <div class="w-[90%]">
                 <h1 class="font-Rokkitt text-3xl pt-10 text-neutral-off-white">Your Logo</h1>
                 <p class="font-Roboto mb-16 mt-10">
