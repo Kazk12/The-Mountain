@@ -1,57 +1,42 @@
-# The Mountain - Version Tailwind 🏔️
+# The Mountain - Version Tailwind 🌄
 
-Vous allez reproduire une maquette en utilisant tailwind
+## Description
 
-## 🎯 Objectifs
+Ce projet consiste à reproduire une maquette en utilisant **Tailwind CSS**, HTML, et CSS. L'objectif principal est de mettre en pratique les connaissances d'intégration HTML, CSS et l'utilisation de Tailwind pour la création d'une page web réactive. Le projet suit les spécifications d'une maquette donnée, et le résultat doit ressembler exactement à celle-ci.
 
-* Mettre en pratique vos connaissances d'intégration html/css/tailwind
+## Objectifs
 
-## 📋 Consignes
+- Reproduire une maquette à l'identique en utilisant **HTML**, **CSS** et **Tailwind**.
+- Appliquer les bonnes pratiques d'intégration et de sémantique.
+- Implémenter un menu interactif, une fonctionnalité 'back-to-top' et une gestion du menu responsive.
 
-Vous devez écrire le code HTML (index.html) et de CSS (ccs/custom.css) pour reproduire les maquettes jointes à l’identique.
+## Prérequis
 
-Vos références sont les fichiers maquette*.jpg
+- Un éditeur de texte pour travailler sur les fichiers HTML et CSS.
+- **Tailwind CSS** installé et configuré pour gérer la mise en page.
+- Une connexion internet pour utiliser Google Fonts (Roboto et Rokkitt).
 
-## ⚙️ Spécifications minimales
+## Structure du projet
 
-### Votre template HTML contiendra plusieurs parties dans l'ordre :
+Le projet se compose des fichiers suivants :
+- **`index.html`** : Structure HTML du site, contient les différentes sections comme 'Home', 'Features', 'About', etc.
+- **`style.css`** : Fichier CSS pour personnaliser l'apparence avec Tailwind et quelques styles personnalisés.
+- **`tailwind.config.js`** : Configuration de Tailwind CSS.
+- **`package.json`** : Dépendances et configuration du projet.
 
-* un header ayant pour id ‘home’
-* une section ayant pour id ‘features’, contenant la seconde partie et son contenu
-* une section ayant pour id ‘about’, contenant la troisième partie et son contenu
-* une section ayant pour id ‘blog’, contenant la quatrième partie et son contenu
-* une section ayant pour id ‘history’, contenant la cinquième partie et son contenu
-* une section ayant pour id ‘photos’, contenant la sixième partie et son contenu
-* une section ayant pour class ‘partenaires’, contenant la septième partie et son contenu
-* une section ayant pour id ‘contact’, contenant la huitième partie et son contenu
-* un footer
 
-➡️ **De manière générale, prêtez une attention particulière à la Sémantique** : 
-[Semantics](https://developer.mozilla.org/fr/docs/Glossary/Semantics)
 
-### Le menu sera composé des rubriques suivantes: 
-* `Home` (href="#home") 🏠
-* `Features` (href="#features") ⭐
-* `About me` (href="#about") 👤
-* `My Blog` (href="#blog") 📝
-* `My history` (href="#history") 📜
-* `Look my Photos` (href="#photos") 📷
-* `Get in Touch!` (href="#contact") ✉️
-* `Download` (href="#") ⬇️
+## Fonctionnalités
 
-⚠️ Le menu apparait seulement lorsqu'on clique sur l'icone du menu burger.
+- **Menu responsive** : Le menu apparaît uniquement lorsqu'on clique sur l'icône du menu burger.
+- **Back-to-top** : Une flèche qui permet de remonter en haut de la page.
+- **Menu interactif** : Le menu disparaît lorsqu'on clique en dehors de la zone du menu.
 
-➡️ **Pour afficher les icônes qui ne sont pas présentent dans les images, vous utiliserez Font Awesome, Typicons ou Flaticons :**
-* [Fontawesome](https://fontawesome.com/)
-* [Flaticon](https://www.flaticon.com/fr/)
-* [Typicons](https://www.s-ings.com/typicons/)
+## Technologies utilisées
 
-### 🖋️ Polices d'écritures :
-* Rokkit pour les titrages : https://fonts.google.com/selection?query=rokkit&selection.family=Rokkitt
-* Roboto pour les paragraphes : https://fonts.google.com/selection?query=robot&selection.family=Roboto
+- **HTML** : Structure de la page.
+- **CSS** : Pour les animations et le style.
+- **Tailwind CSS** : Pour la gestion de la mise en page et des composants.
+- **JavaScript** : Pour les interactions du menu.
 
-## 🎁 Bonus
-
-* Créer la fonctionnalité 'back-to-top' : quand on clique sur la flèche, faire remonter au début de la page 🔝
-* Faire disparaitre le menu lorsqu'on clique hors de la zone menu 🚪
 
